@@ -1,0 +1,50 @@
+<!-- player-profile.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Profile</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <h1>Player Profile</h1>
+  <div class="slider">
+    <div class="option-block" data-option="ai-ds">
+      <form action="playerinformation.html" method="get">
+        <h2>AI-DS</h2>
+        <p>Option description</p>
+        <button type="submit">Select AI-DS</button>
+      </form>
+    </div>
+    <div class="option-block" data-option="comps">
+      <h2>COMPS</h2>
+      <p>Option description</p>
+      <button type="button">Select COMPS</button>
+    </div>
+    <div class="option-block" data-option="it">
+      <h2>IT</h2>
+      <p>Option description</p>
+      <button type="button">Select IT</button>
+    </div>
+    <div class="option-block" data-option="extc">
+      <h2>EXTC</h2>
+      <p>Option description</p>
+      <button type="button">Select EXTC</button>
+    </div>
+  </div>
+</body>
+</html>
+
+  <script>
+    // Add event listeners to each option block
+    document.querySelectorAll('.option-block').forEach(block => {
+      block.addEventListener('click', event => {
+        // Toggle the active class on the block
+        block.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>

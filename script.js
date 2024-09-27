@@ -1,23 +1,35 @@
-window.onload = function(){
-    const sidebar = document.querySelector(".sidebar");
-    const closeBtn = document.querySelector("#btn");
-    const searchBtn = document.querySelector(".bx-search")
+const players = [
+  { name: "amreliya moin", image: "images/aidsa.jpeg" },
+  { name: "shubham oza", image: "images/aidsb.jpeg" },
+  // ...
+  { name: "prarambh nandusekar", image: "images/it.jpeg" }
+];
 
-    closeBtn.addEventListener("click",function(){
-        sidebar.classList.toggle("open")
-        menuBtnChange()
-    })
+const playerList = document.querySelector(".player-list");
 
-    searchBtn.addEventListener("click",function(){
-        sidebar.classList.toggle("open")
-        menuBtnChange()
-    })
+players.forEach((player) => {
+  const playerItem = document.createElement("div");
+  playerItem.className = "player-item";
 
-    function menuBtnChange(){
-        if(sidebar.classList.contains("open")){
-            closeBtn.classList.replace("bx-menu","bx-menu-alt-right")
-        }else{
-            closeBtn.classList.replace("bx-menu-alt-right","bx-menu")
-        }
-    }
-}
+  const playerImage = document.createElement("img");
+  playerImage.src = player.image;
+  playerImage.alt = `${player.name} Profile Picture`;
+
+  const playerName = document.createElement("a");
+  playerName.textContent = player.name;
+  playerName.href = `playerDetail.html?player=${player.name}`;
+
+  playerItem.appendChild(playerImage);
+  playerItem.appendChild(playerName);
+
+  playerList.appendChild(playerItem);
+});
+
+// Handle click events on player items
+playerList.addEventListener("click", (e) => {
+  if (e.target.tagName === "A") {
+    const playerName = e.target.textContent;
+    // Redirect to player detail page with the selected player's name
+    window.location.href = `playerDetail.html?player=${playerName}`;
+  }
+});
