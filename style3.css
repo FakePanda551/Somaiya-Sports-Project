@@ -9,13 +9,14 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #e0e0e0; /* Light text color for contrast */
+  background-color: #121212; /* Dark background */
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  color: #ffffff; /* White color for the heading */
 }
 
 /* Player List Styles */
@@ -25,39 +26,44 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px; /* Adjusted for better spacing */
 }
 
 .player-item {
   margin: 20px;
-  width: calc(20% - 40px);
-  background-color: #fff;
-  border: 1px solid #ddd;
+  width: calc(30% - 40px); /* Set width to allow 3 items per row */
+  height: 300px; /* Increased height for better image display */
+  background-color: #1e1e1e; /* Darker background for player items */
+  border: 1px solid #444; /* Dark border */
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex; /* Allow for flexbox layout within the item */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Space out content */
 }
 
 .player-item img {
   width: 100%;
-  height: 150px;
+  height: 180px; /* Increased height to display more of the image */
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 
 .player-item a {
   text-decoration: none;
-  color: #337ab7;
+  color: #4CAF50; /* Button-like color for links */
 }
 
 .player-item a:hover {
-  color: #23527c;
+  color: #66BB6A; /* Lighter shade on hover */
 }
 
 .player-item h2 {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
+  color: #ffffff; /* White text for player names */
 }
 
 /* Responsive Design */
@@ -65,9 +71,10 @@ h1 {
 @media (max-width: 768px) {
   .player-list {
     flex-direction: column;
+    align-items: center; /* Center items on smaller screens */
   }
   .player-item {
-    width: 100%;
+    width: 90%; /* Full width for mobile */
     margin: 20px 0;
   }
 }
@@ -77,6 +84,6 @@ h1 {
     padding: 10px;
   }
   .player-item img {
-    height: 100px;
+    height: 100px; /* Keep this the same for mobile */
   }
 }
