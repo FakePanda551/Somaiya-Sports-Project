@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light text color for contrast */
+    background-color: #121212; /* Dark background */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1e1e1e; /* Darker header */
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: #ffffff; /* White text for navigation */
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Main Section Styles */
+  main {
+    display: flex;
+    justify-content: center; /* Center align the content */
+    padding: 20px;
+  }
+  
+  .team-detail {
+    background-color: #2a2a2a; /* Darker background for the team detail */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    max-width: 400px; /* Maximum width for the detail block */
+    text-align: center; /* Center align text */
+  }
+  
+  .team-info {
+    margin-bottom: 20px; /* Space between image and details */
+  }
+  
+  .team-info img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  .team-info h2 {
+    margin: 10px 0; /* Space around the team name */
+    font-size: 24px; /* Font size for team name */
+    color: #ffffff; /* White color for team name */
+  }
+  
+  .team-info p {
+    margin: 5px 0; /* Space between stats */
+    font-size: 18px; /* Font size for stats */
+    color: #e0e0e0; /* Light text color for stats */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    main {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .team-detail {
+      width: 90%; /* Full width for mobile */
+    }
+  }
+  
