@@ -1,72 +1,100 @@
 /* Global Styles */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  /* Slider Styles */
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0; /* Light text color for contrast */
+  background-color: #121212; /* Dark background */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff; /* White color for the heading */
+}
+
+/* Slider Styles */
+
+.slider {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space out blocks evenly */
+  max-width: 100%; /* Full width of the container */
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* Darker background for the slider */
+  border: 1px solid #444; /* Border color for the slider */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.option-block {
+  background-color: #2a2a2a; /* Darker option block background */
+  border: 1px solid #444; /* Border color */
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  color: #e0e0e0; /* Light text color */
+  flex: 1; /* Allow blocks to grow equally */
+  margin: 0 10px; /* Margin between blocks */
+  display: flex; /* Flexbox layout for internal content */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space elements */
+}
+
+.option-block:first-child {
+  margin-left: 0; /* Remove left margin for the first block */
+}
+
+.option-block:last-child {
+  margin-right: 0; /* Remove right margin for the last block */
+}
+
+.option-block:hover {
+  background-color: #333; /* Slightly lighter on hover */
+}
+
+.option-block.active {
+  background-color: #4CAF50; /* Active block color */
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+
+button[type="submit"],
+button[type="button"] {
+  background-color: #4CAF50; /* Button background */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #3e8e41; /* Darker shade on hover */
+}
+
+button[type="submit"]:active,
+button[type="button"]:active {
+  background-color: #3e8e41; /* Same color for active */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
   .slider {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      flex-direction: column; /* Stack blocks in a column on smaller screens */
   }
-  
   .option-block {
-    background-color: #f7f7f7;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    cursor: pointer;
+      margin: 10px 0; /* Vertical spacing for stacked layout */
   }
-  
-  .option-block:hover {
-    background-color: #eee;
-  }
-  
-  .option-block.active {
-    background-color: #ccc;
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Button Styles */
-  
-  button[type="submit"], button[type="button"] {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover, button[type="button"]:hover {
-    background-color: #3e8e41;
-  }
-  
-  button[type="submit"]:active, button[type="button"]:active {
-    background-color: #3e8e41;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
