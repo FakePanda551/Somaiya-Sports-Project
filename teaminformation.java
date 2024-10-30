@@ -47,7 +47,7 @@ public class Main {
                 switch (department) {
                     case 1:
                         System.out.println("AIDS players:");
-                        System.out.println("1. Aaayush Bharda");
+                        System.out.println("1. Aayush Bharda");
                         System.out.println("2. Vedant Ambavne");
                         System.out.println("3. Amreliya Moin");
                         System.out.println("4. Krish Darji");
@@ -69,40 +69,40 @@ public class Main {
                                 System.out.println("RHB\n119 RUNS\n7 WICKS");
                                 break;
                             case 2:
-                                System.out.println("RHB\n10 RUNS\n1 WICKS");
+                                System.out.println("RHB\n126 RUNS\n1 WICKS");
                                 break;
  case 3:
                                 System.out.println("RHB\n132RUNS\n0 WICKS");
                                 break;
  case 4:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n189 RUNS\n10 WICKS");
                                 break;
  case 5:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n117 RUNS\n9 WICKS");
                                 break;
  case 6:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n189 RUNS\n4 WICKS");
                                 break;
  case 7:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n158 RUNS\n12 WICKS");
                                 break;
  case 8:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n128 RUNS\n12 WICKS");
                                 break;
  case 9:
                                 System.out.println("RHB\n100 RUNS\n10 WICKS");
                                 break;
  case 10:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n129 RUNS\n6 WICKS");
                                 break;
  case 11:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n134 RUNS\n1 WICKS");
                                 break;
  case 12:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n128 RUNS\n11 WICKS");
                                 break;
  case 13:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n169 RUNS\n15 WICKS");
                                 break;
 
                             // ...
@@ -131,43 +131,43 @@ public class Main {
 
                         switch (players1) {
                             case 1:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n158 RUNS\n18 WICKS");
                                 break;
                             case 2:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n139 RUNS\n5 WICKS");
                                 break;
  case 3:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n139 RUNS\n4 WICKS");
                                 break;
  case 4:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n178 RUNS\n10 WICKS");
                                 break;
  case 5:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n119 RUNS\n12 WICKS");
                                 break;
  case 6:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n107 RUNS\n17 WICKS");
                                 break;
  case 7:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n121 RUNS\n16 WICKS");
                                 break;
  case 8:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n149 RUNS\n10 WICKS");
                                 break;
  case 9:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n175 RUNS\n5 WICKS");
                                 break;
  case 10:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n174 RUNS\n9 WICKS");
                                 break;
  case 11:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n185 RUNS\n3 WICKS");
                                 break;
  case 12:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n159 RUNS\n8 WICKS");
                                 break;
  case 13:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n107 RUNS\n18 WICKS");
                                 break;
 
                             // ...
@@ -197,43 +197,43 @@ public class Main {
 
                         switch (players2) {
                             case 1:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n187 RUNS\n2 WICKS");
                                 break;
                             case 2:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n172 RUNS\n3 WICKS");
                                 break;
  case 3:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n128 RUNS\n14 WICKS");
                                 break;
  case 4:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n156 RUNS\n11 WICKS");
                                 break;
  case 5:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n137 RUNS\n7 WICKS");
                                 break;
  case 6:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n119 RUNS\n13 WICKS");
                                 break;
  case 7:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n141 RUNS\n8 WICKS");
                                 break;
  case 8:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n187 RUNS\n2 WICKS");
                                 break;
  case 9:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n178 RUNS\n4 WICKS");
                                 break;
  case 10:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n119 RUNS\n11 WICKS");
                                 break;
  case 11:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n192 RUNS\n2 WICKS");
                                 break;
  case 12:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n111 RUNS\n13 WICKS");
                                 break;
  case 13:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n155 RUNS\n10 WICKS");
                                 break;
 
                             // ...
@@ -265,43 +265,43 @@ public class Main {
 
                         switch (players3) {
                             case 1:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n196 RUNS\n1 WICKS");
                                 break;
                             case 2:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n133 RUNS\n12 WICKS");
                                 break;
  case 3:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n172 RUNS\n6 WICKS");
                                 break;
  case 4:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n162 RUNS\n11 WICKS");
                                 break;
  case 5:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n125 RUNS\n16 WICKS");
                                 break;
  case 6:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n168 RUNS\n6 WICKS");
                                 break;
  case 7:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n158 RUNS\n9 WICKS");
                                 break;
  case 8:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n106 RUNS\n20 WICKS");
                                 break;
  case 9:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n162 RUNS\n12 WICKS");
                                 break;
  case 10:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n185 RUNS\n1 WICKS");
                                 break;
  case 11:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n138 RUNS\n9 WICKS");
                                 break;
  case 12:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n158 RUNS\n7 WICKS");
                                 break;
  case 13:
-                                System.out.println("RHB\n100 RUNS\n10 WICKS");
+                                System.out.println("RHB\n179 RUNS\n7 WICKS");
                                 break;
 
                             // ...
