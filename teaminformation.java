@@ -316,3 +316,152 @@ public class Main {
                         System.out.println("Error");
                 }
                 break;
+                        case 2:
+  System.out.println("Choose a department:");
+                System.out.println("1. AIDS");
+                System.out.println("2. COMPS");
+System.out.println("3. EXTC");
+                System.out.println("4. IT");
+
+                int department1 = scanner.nextInt();
+                scanner.nextLine();
+
+   switch (department1) {
+                    case 1:
+                        System.out.println("AIDS teams");
+                        System.out.println("1. fy AI_DS");
+                        System.out.println("2. sy AI_DS");
+                        System.out.println("3. ty AI_DS");
+                        System.out.println("4. ly AI_DS");
+
+
+                        int teams = scanner.nextInt();
+                        scanner.nextLine();
+
+                        switch (teams) {
+                            case 1:
+                                System.out.println("won=3\nlose=1");
+                                break;
+                            case 2:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 3:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 4:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ default:
+                        System.out.println("Error");
+                }
+break;
+
+        case 2:
+                        System.out.println("COMPS teams");
+                        System.out.println("1. fy COMPS");
+                        System.out.println("2. sy COMPS");
+                        System.out.println("3. ty COMPS");
+                        System.out.println("4. ly COMPS");
+
+
+                        int teams1 = scanner.nextInt();
+                        scanner.nextLine();
+
+                        switch (teams1) {
+                            case 1:
+                                System.out.println("won=3\nlose=1");
+                                break;
+                            case 2:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 3:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 4:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ default:
+                        System.out.println("Error");
+                }
+break;
+
+case 3:
+                        System.out.println("EXTCteams");
+                        System.out.println("1. fy EXTC");
+                        System.out.println("2. sy EXTC");
+                        System.out.println("3. ty EXTC");
+                        System.out.println("4. ly EXTC");
+                        int teams2 = scanner.nextInt();
+                        scanner.nextLine();
+
+                        switch (teams2) {
+                            case 1:
+                                System.out.println("won=3\nlose=1");
+                                break;
+                            case 2:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 3:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 4:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ default:
+                        System.out.println("Error");
+                }
+break;
+
+case 4:
+                        System.out.println("ITteams");
+                        System.out.println("1. fy IT");
+                        System.out.println("2. sy IT");
+                        System.out.println("3. tyIT");
+                        System.out.println("4. ly IT");
+                        int teams3 = scanner.nextInt();
+                        scanner.nextLine();
+
+                        switch (teams3) {
+                            case 1:
+                                System.out.println("won=3\nlose=1");
+                                break;
+                            case 2:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 3:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ case 4:
+                                System.out.println("won=3\nlose=1");
+                                break;
+ default:
+                        System.out.println("Error");
+                }
+   // ...
+                        break;
+
+                    default:
+                        System.out.println("Error");
+                }
+                break;
+                case 3:
+                // ...
+System.out.println("1.  ly AI-DS");
+                        System.out.println("2. fy AI-DS");
+                        System.out.println("3. ty IT");
+                        System.out.println("4. sy EXTC");
+                        System.out.println("5. sy COMPS");
+                        System.out.println("6. sy IT");
+                        System.out.println("7. ly EXTC");
+                        System.out.println("8. ty AI-DS");
+                        System.out.println("9. fy COMPS");
+                        System.out.println("10. ty IT");
+                    
+ 
+                break;
+
+            default:
+                System.out.println("Error");
+        }
+    }
+}
